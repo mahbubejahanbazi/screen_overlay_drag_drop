@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DragDrop">
         <activity
-            android:name=".MainActivity"
+            android:name="ir.mjahanbazi.dragdrop.MainActivity"
             android:theme="@style/TransparentTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

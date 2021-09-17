@@ -45,7 +45,7 @@ public class AppView extends RelativeLayout implements View.OnTouchListener {
         }});
         buttonPanel.addView(new CloseButton(context), new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT) {{
-            int margin = AppUtils.dpi2Pixel(3);
+            int margin = AppUtils.dpi2Pixel(3,getContext());
             setMargins(margin, margin, margin, margin);
         }});
         addView(new Body(getContext()), new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT) {{

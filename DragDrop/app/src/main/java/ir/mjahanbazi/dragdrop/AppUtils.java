@@ -1,6 +1,5 @@
 package ir.mjahanbazi.dragdrop;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.WindowManager;
 
